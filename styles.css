@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #111;
+    font-family: 'Baloo Paaji 2';
+}
+.title {
+    font-size: 1.5rem;
+    margin: 1rem 0 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+.title span {
+    color: lime;
+}
+
+.styling {
+    font-weight: 400;
+    color: rgba(23, 119, 143, 0.979);
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.input-div .input {
+    padding:0 0.5rem;
+    margin: 0.25rem;
+    width: 60rem;
+    height: 45px;
+    outline: none;
+    background-color: #fff;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    
+}
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.fa {
+    font-size: 45px;
+    color: lime;
+}
+.fa-trash {
+    margin-left: 5px;
+    color: red;
+}
+
+.fa-plus-circle:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.item {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #fff;
+}
+.item__input {
+    outline: none;
+    color: #fff;
+    border: none;
+    max-width: 300px;
+    font-size: 1.4rem;
+    background-color: transparent;
+}
+.author {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    color: lime;
+}
